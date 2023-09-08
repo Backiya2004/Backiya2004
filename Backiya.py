@@ -1,0 +1,24 @@
+"""
+year % 4 == 0 &
+year % 100 != 0 /
+year % 400 == 0 
+
+"""
+def isLeapYear(year):
+  if (year % 4 == 0 and year % 100
+!= 0) or year % 400 == 0:
+     returnTrue
+  else:
+     returnFalse
+
+year = int(input("enter a  year :
+"))
+
+if isLeapYear(year):
+ printf('{} is a leap
+year.'.format(year))
+                 else:
+
+  printf('{} is not a leap
+year.' .format(year))
+                 
